@@ -20,7 +20,7 @@ public class CriarConta {
 		conta2.numeroConta = 14578;
 		conta2.titular.nome = "Jão";
 		conta2.titular.CPF = "111.222.333-44";
-		conta2.titular.email = "jão@gmail.com";
+		conta2.titular.email = "jão@gmail.com;"
 		System.out.println(conta2.saldo);
 		
 		

@@ -6,9 +6,7 @@ public class CriarConta {
 		conta1.saldo = 1500;
 		conta1.agencia = 268;
 		conta1.numeroConta = 124578;
-		conta1.titular.nome = "Maria";
-		conta1.titular.CPF = "123.45.789-00";
-		conta1.titular.email = "maria@gmail.com";
+		conta1.titular = "Jão";
 		conta1.deposita(100);
 		conta1.deposita(50);
 		System.out.println(conta1.saldo);
@@ -18,9 +16,7 @@ public class CriarConta {
 		conta2.saldo = 150;
 		conta2.agencia = 268;
 		conta2.numeroConta = 14578;
-		conta2.titular.nome = "Jão";
-		conta2.titular.CPF = "111.222.333-44";
-		conta2.titular.email = "jão@gmail.com";
+		conta2.titular = "Jão";
 		System.out.println(conta2.saldo);
 		
 		
