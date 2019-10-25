@@ -1,0 +1,14 @@
+
+public class TestaAssociacao {
+
+	public static void main(String[] args) {
+		Conta contaDaPaula = new Conta();
+		contaDaPaula.agencia = 6532;
+		contaDaPaula.numeroConta = 124578;
+		contaDaPaula.saldo = 150.00;
+		
+		System.out.println(contaDaPaula.saldo);
+
+	}
+
+}
